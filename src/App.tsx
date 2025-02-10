@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Linkedin, Download, User, Briefcase, GraduationCap, Code, MapPin, Phone, Calendar } from 'lucide-react';
+import { Mail, Linkedin, User, Briefcase, GraduationCap, Code, MapPin, Phone } from 'lucide-react';
 
 function App() {
   return (
@@ -146,16 +146,9 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-white py-12">
+      <footer className="bg-slate-900 text-white py-8">
         <div className="container mx-auto px-4 text-center">
-          <a
-            href="#"
-            className="inline-flex items-center px-6 py-3 bg-slate-700 text-white rounded-lg hover:bg-slate-600 transition-colors font-medium"
-          >
-            <Download className="w-5 h-5 mr-2" />
-            Télécharger CV
-          </a>
-          <p className="mt-6 text-slate-400">© 2024 Chbihi ElMehdi. Tous droits réservés.</p>
+          <p className="text-slate-400">© 2024 Chbihi ElMehdi. Tous droits réservés.</p>
         </div>
       </footer>
     </div>
