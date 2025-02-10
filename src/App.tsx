@@ -28,7 +28,7 @@ function App() {
               <a href="mailto:m.chbihi@web-techno-consulting.fr" className="hover:text-slate-300 transition-colors p-2">
                 <Mail className="w-7 h-7" />
               </a>
-              <a href="#" className="hover:text-slate-300 transition-colors p-2">
+              <a href="https://www.linkedin.com/in/mehdi-chbihi-b8355821" className="hover:text-slate-300 transition-colors p-2" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-7 h-7" />
               </a>
             </div>
